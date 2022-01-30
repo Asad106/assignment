@@ -1,0 +1,56 @@
+.faq {
+  background: #6184d8;
+}
+@media (max-width: 769px) {
+  .faq .mb-faq {
+    flex-direction: column-reverse;
+  }
+  .arrow_icon {
+    text-align: center;
+  }
+}
+
+.step_1 .heading_icon {
+  position: relative;
+  margin-top: 12px;
+  padding: 17px;
+  width: 67px;
+  height: 67px;
+  border-radius: 38px;
+  background: transparent linear-gradient(328deg, #4d80fb 0%, #23ce6b 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.step_1 .step_heading h3 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.step_1 h4 {
+  color: #23ce6b !important;
+  font-weight: 700;
+}
+.step_1 p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 26px;
+  font-weight: 500;
+}
+.step_1 .arrow_icon img {
+  /* width: 54px; */
+  height: 35px;
+}
+.card_header {
+  box-shadow: 6px 6px 2px #6184d8;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+.card_header h3 {
+  color: #ffffff;
+  font-weight: 900;
+}
+.card_header p {
+  color: #ffffff;
+}
+.card_header .card_body {
+  background-color: none !important;
+}

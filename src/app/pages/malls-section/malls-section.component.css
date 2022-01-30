@@ -1,0 +1,83 @@
+#card-bg {
+  background: #08083d 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal normal 800 50px/65px Gilroy;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.carousel-focus {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.carousel-focus-inner {
+  height: 100%;
+  position: relative;
+}
+.carousel-focus-item {
+  position: absolute;
+  display: inline-block;
+  width: 33%;
+}
+.carousel-focus-item:first-of-type {
+  left: 0;
+  transform: translate(0, 12%);
+  width: 28%;
+}
+.carousel-focus-item:nth-of-type(2) {
+  border-color: rgb(0, 105, 217);
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 35%;
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-focus-item:nth-of-type(3) {
+  right: 0;
+  transform: translate(0, 12%);
+  width: 28%;
+}
+.carousel-focus-item:nth-child(n + 4) {
+  display: none;
+}
+.franchise-carousel {
+  height: 550px;
+  margin-top: 40px;
+}
+.franchise p {
+  font-size: 30px;
+  font-weight: 200;
+}
+.carousel-focus-item img {
+  border: 1px solid white;
+  width: 100%;
+  height: auto;
+}
+.carousel-focus-controls {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 420px) {
+  .franchise-carousel {
+    height: 400px;
+  }
+  .carousel-focus-item:first-of-type {
+    display: none;
+  }
+  .carousel-focus-item:nth-of-type(3) {
+    display: none;
+  }
+  .carousel-focus-item:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 992px) {
+  .franchise-carousel {
+    height: 300px;
+  }
+}

@@ -1,0 +1,45 @@
+#services {
+  padding: 0px 0px;
+}
+#services .mb-work-sec {
+  display: none;
+}
+@media (max-width: 768px) {
+  #services .mb-work-sec {
+    display: block;
+    padding: 64px 0px;
+  }
+}
+
+#task {
+  background-image: url("../../../assets/imgs/Group 2119.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 769px) {
+  #task {
+    background-image: url("../../../assets/imgs/MaskGroup877.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+  }
+}
+.task .checks {
+  margin-top: 30px;
+}
+.task h2 {
+  font-weight: 900;
+}
+.tick-img img {
+  position: relative;
+  margin-right: 15px;
+  width: 17px;
+}
+
+.right_content {
+  margin-left: 25px;
+}
+.right_content .ipsum_content {
+  /* font-size: 15px; */
+  font-weight: bold;
+}

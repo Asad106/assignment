@@ -1,0 +1,66 @@
+#footer {
+  background: url("../../../assets/imgs/Group2176.svg");
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+#footer .mail-sec {
+  display: flex;
+  justify-content: end;
+}
+#footer .mail-sec p {
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 200;
+}
+#footer h5 {
+  font-size: 0.8rem !important;
+  font-weight: 800;
+}
+#footer .social-media img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+#footer .social-media img:last-child {
+  margin-right: 0px;
+}
+#footer .site-rights {
+  display: flex;
+  margin-left: 66px;
+}
+#footer .site-rights a {
+  color: #ffffff;
+}
+#footer .site-rights p {
+  margin-left: 64px;
+}
+#footer .footer-links a {
+  color: #ffffff;
+  padding-left: 33px;
+  margin-left: 23px;
+}
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+@media (max-width: 769px) {
+  .footer-links {
+    display: none;
+  }
+  .site-rights {
+    display: block !important;
+    text-align: center;
+    margin-left: 0px !important;
+    font-size: 18px;
+  }
+  .site-rights p {
+    margin-left: 0px !important;
+  }
+  .addreses {
+    display: none;
+  }
+  .site-rights {
+    display: block;
+  }
+}
